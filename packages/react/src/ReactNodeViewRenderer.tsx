@@ -52,7 +52,7 @@ export interface ReactNodeViewRendererOptions extends NodeViewRendererOptions {
         HTMLAttributes: Record<string, any>;
       }) => Record<string, string>);
 }
-
+//匹配prosemirror的属性
 export class ReactNodeView<
   Component extends ComponentType<NodeViewProps> = ComponentType<NodeViewProps>,
   NodeEditor extends Editor = Editor,
