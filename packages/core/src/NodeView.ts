@@ -1,3 +1,6 @@
+/**
+ * 核心的nodeView
+ */
 import { NodeSelection } from '@tiptap/pm/state'
 import { NodeView as ProseMirrorNodeView, ViewMutationRecord } from '@tiptap/pm/view'
 
