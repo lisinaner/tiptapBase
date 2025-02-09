@@ -11,14 +11,17 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "sourceMap": true,
-    "baseUrl": ".",
+
     "rootDir": ".",
     "allowJs": true,
     "checkJs": false,
     "noEmit": true,
+    "baseUrl": "C:\\新建文件夹\\tiptapBase",
     "paths": {
-      "@tiptap/*": ["packages/*/src", "packages/*/dist"]
-    },
+        "@tiptap/core":["./bun/package/core/src"],
+        "one":["./bun/package/one"],
+        "@tiptap/pm/*":["./packages/pm/*"]
+        },
     "lib": [
       "esnext",
       "dom",
