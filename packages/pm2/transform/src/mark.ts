@@ -1,4 +1,4 @@
-import {Mark, MarkType, Slice, Fragment, NodeType} from "prosemirror-model"
+import {Mark, MarkType, Slice, Fragment,type  NodeType} from "prosemirror-model"
 
 import {Step} from "./step"
 import {Transform} from "./transform"

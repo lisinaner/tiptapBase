@@ -16,6 +16,7 @@ import { ListItem, ListItemOptions } from '@tiptap/extension-list-item'
 import { OrderedList, OrderedListOptions } from '@tiptap/extension-ordered-list'
 import { Paragraph, ParagraphOptions } from '@tiptap/extension-paragraph'
 import { Strike, StrikeOptions } from '@tiptap/extension-strike'
+import Link from '@tiptap/extension-link'
 import { Text } from '@tiptap/extension-text'
 
 export interface StarterKitOptions {
@@ -54,6 +55,7 @@ export interface StarterKitOptions {
    * @example document: false
    */
   document: false,
+  link:false,
 
   /**
    * If set to false, the dropcursor extension will not be registered
@@ -138,7 +140,9 @@ export const StarterKit = Extension.create<StarterKitOptions>({
 
   addExtensions() {
     const extensions = []
-
+    if (this.options.link !== false) {
+    
+    }
     if (this.options.bold !== false) {
       extensions.push(Bold.configure(this.options.bold))
     }

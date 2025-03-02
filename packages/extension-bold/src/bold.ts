@@ -87,6 +87,9 @@ export const Bold = Mark.create<BoldOptions>({
   },
 
   renderHTML({ HTMLAttributes }) {
+
+    // console.log("🚀 ~ bold.ts:90 ~ renderHTML ~ HTMLAttributes:", HTMLAttributes)
+    
     return ['strong', mergeAttributes(this.options.HTMLAttributes, HTMLAttributes), 0]
   },
 
