@@ -47,6 +47,7 @@ export const Paragraph = Node.create<ParagraphOptions>({
   },
 
   renderHTML({ HTMLAttributes }) {
+    console.trace()
     return ['p', mergeAttributes(this.options.HTMLAttributes, HTMLAttributes), 0]
   },
 
