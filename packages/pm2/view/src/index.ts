@@ -13,8 +13,8 @@ import {readDOMChange} from "./domchange"
 import {DOMSelection, DOMNode, DOMSelectionRange, deepActiveElement, clearReusedRange} from "./dom"
 import * as browser from "./browser"
 
-export {Decoration, DecorationSet, DecorationAttrs, DecorationSource} from "./decoration"
-export {NodeView, MarkView, ViewMutationRecord} from "./viewdesc"
+export {Decoration, DecorationSet,type DecorationAttrs, type DecorationSource} from "./decoration"
+export {type NodeView,type MarkView, type ViewMutationRecord} from "./viewdesc"
 
 // Exported for testing
 import {serializeForClipboard, parseFromClipboard} from "./clipboard"

@@ -7,14 +7,15 @@ export {Mark} from "./mark"
 export {
      Schema, 
       NodeType,
-    type   Attrs, 
       MarkType, 
-       NodeSpec,
-       MarkSpec, 
-        AttributeSpec, 
-        SchemaSpec
+      type   Attrs,
+      type NodeSpec,
+      type MarkSpec, 
+      type AttributeSpec, 
+      type  SchemaSpec
     } from "./schema"
 export {ContentMatch} from "./content"
 
-export { DOMParser,   GenericParseRule,   TagParseRule,   StyleParseRule,   ParseRule,   ParseOptions} from "./from_dom"
-export {  DOMSerializer,  DOMOutputSpec} from "./to_dom"
+export { DOMParser,  type GenericParseRule, type  TagParseRule, type  StyleParseRule,  type ParseRule,  
+  type ParseOptions} from "./from_dom"
+export {  DOMSerializer, type DOMOutputSpec} from "./to_dom"
