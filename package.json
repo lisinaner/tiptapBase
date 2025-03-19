@@ -47,6 +47,7 @@
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^26.0.3",
     "@rollup/plugin-node-resolve": "^15.3.0",
+    "@types/js-beautify": "^1.14.3",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^8.19.0",
@@ -82,5 +83,10 @@
   "publishConfig": {
     "provenance": true
   },
-  "name": "tiptap"
+  "name": "tiptap",
+  "dependencies": {
+    "@happy-dom/global-registrator": "^17.4.4",
+    "js-beautify": "^1.15.4",
+    "prosemirror-state": "^1.4.3"
+  }
 }

@@ -17,7 +17,18 @@
     "checkJs": false,
     "noEmit": true,
     "paths": {
-      "@tiptap/*": ["packages/*/src", "packages/*/dist"]
+      "@tiptap/*": ["packages/*/src", "packages/*/dist"],
+      "@tiptap/pm/model":["packages/pm/model"],
+      "@tiptap/pm/state":["packages/pm/state"],
+      "@tiptap/pm/view":["packages/pm/view"],
+      "@tiptap/pm/transform":["packages/pm/transform"],
+      "@tiptap/pm/keymap":["packages/pm/keymap"],
+      "@tiptap/pm/commands":["packages/pm/commands"],
+      "@tiptap/pm/schema-list":["packages/pm/schema-list"],
+      "@tiptap/pm/gapcursor":["packages/pm/gapcursor"],
+      "@tiptap/pm/history":["packages/pm/history"],
+      "@tiptap/pm/dropcursor":["packages/pm/dropcursor"]
+ 
     },
     "lib": [
       "esnext",
