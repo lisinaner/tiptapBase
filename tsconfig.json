@@ -27,7 +27,8 @@
       "@tiptap/pm/schema-list":["packages/pm/schema-list"],
       "@tiptap/pm/gapcursor":["packages/pm/gapcursor"],
       "@tiptap/pm/history":["packages/pm/history"],
-      "@tiptap/pm/dropcursor":["packages/pm/dropcursor"]
+      "@tiptap/pm/dropcursor":["packages/pm/dropcursor"],
+     
  
     },
     "lib": [
